@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Config & secrets — contains API keys
+config.json
+models.md
+architecture.md
+mcp-settings.json
+.env
+.env.*
+smdocs/
+
+
+# Tool cache
+.ruff_cache/
+.claude/
+.claude.json
+.mypy_cache/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Package
+package/node_modules/
+package/package-lock.json
+package/dist/

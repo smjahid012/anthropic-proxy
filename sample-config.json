@@ -1,0 +1,52 @@
+{
+  "server": {
+    "port": 4000
+  },
+
+  "mini_claude_mode": true,
+
+  "token_limits": {
+    "max_system_chars": 6000,
+    "max_messages": 20,
+    "max_tool_desc_chars": 150,
+    "max_tool_result_chars": 8000
+  },
+
+  "allowed_tools": [
+    "Read",
+    "Edit",
+    "Write",
+    "MultiEdit",
+    "Bash",
+    "Glob",
+    "Grep",
+    "LS",
+    "WebFetch",
+    "WebSearch",
+    "TodoRead",
+    "TodoWrite",
+    "Task",
+    "Summarize",
+    "exit_plan_mode",
+    "AskFollowupQuestion",
+    "search_web",
+    "search_images",
+    "search_videos",
+    "search_news",
+    "search_shopping",
+    "search_places",
+    "deep_research",
+    "search_rag_context"
+  ],
+
+  "providers": [
+    {
+      "name": "gemini",
+      "type": "gemini",
+      "api_key": "#YOUR_API_KEY_HERE",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "model": "gemini-2.5-flash-lite",
+      "priority": 1
+    }
+  ]
+}
