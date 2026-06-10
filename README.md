@@ -374,19 +374,11 @@ curl http://localhost:4000/health
     "gemini": {
       "available": true,
       "type": "gemini",
-      "model": "gemini-3.1-flash-lite"
+      "model": "gemini-2.5-flash-lite"
     }
   }
 }
 ```
-
----
-
-## License
-
-Licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
-
----
 
 ## Contributing
 
